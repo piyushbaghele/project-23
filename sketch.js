@@ -41,12 +41,7 @@ function setup() {
     120
   );
 
-  arrow = new PlayerArrow(
-    playerArcher.body.position.x,
-    playerArcher.body.position.y,
-    100,
-    10
-  );
+  arrow = new PlayerArrow(playerArcher.body.position.x,playerArcher.body.position.y,100,10);
 }
 
 function draw() {
@@ -67,4 +62,5 @@ function draw() {
   textAlign("center");
   textSize(40);
   text("EPIC ARCHERY", width / 2, 100);
+  
 }
